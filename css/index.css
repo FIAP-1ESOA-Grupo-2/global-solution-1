@@ -158,3 +158,19 @@ main {
     background-color: #727272;
     text-align: center;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(218, 218, 218, 0.144);
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-blue); 
+  border-radius: 10px;
+} 
