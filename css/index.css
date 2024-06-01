@@ -157,6 +157,9 @@ main {
 .grid-item {
     background-color: #727272;
     text-align: center;
+    padding: 20px; 
+    font-weight: 600;
+    color: var(--white-color);
 }
 
 /* width */
