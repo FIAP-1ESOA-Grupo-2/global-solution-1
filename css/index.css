@@ -174,3 +174,8 @@ main {
   background: var(--main-blue); 
   border-radius: 10px;
 } 
+
+::selection {
+  color: var(--white-color);
+  background: var(--main-blue);
+}
