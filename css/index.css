@@ -13,11 +13,25 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--bg-black-color);
     font-family: "Inter", sans-serif;
     color: var(--white-color);
-    max-width: 1920px;
 } 
+
+body {
+    background-image: url("../images/bg-main.svg"); 
+    background-color: var(--bg-black-color);
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    overflow: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+main {
+    overflow: auto;
+    height: 100vh; 
+    backdrop-filter: brightness(50%);
+}
 
 .container {
     height: 90vh;
