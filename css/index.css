@@ -1,0 +1,146 @@
+/*      Fonts     */
+
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --white-color: #FFFFFF;
+    --bg-black-color: #121212;
+    --main-blue: #3BC7DA;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bg-black-color);
+    font-family: "Inter", sans-serif;
+    color: var(--white-color);
+    max-width: 1920px;
+} 
+
+.container {
+    height: 90vh;
+    display: flex;
+    margin: 0 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 200px;
+    font-weight: bold;
+}
+
+.subtitle {
+    font-size: 64px;
+    font-weight: 300;
+}
+
+.blue {
+    color: var(--main-blue);
+}
+
+.footerdetail {
+    display: flex;
+    justify-content: center;
+}
+
+.container2 {
+    height: 90vh;
+    display: flex;
+    margin: 90px 80px 30px 80px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.container2 p {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.container3 {
+    height: 90vh;
+    display: flex;
+    margin: 90px 80px 30px 80px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 200;
+    color: var(--white-color);
+    gap: 25px;
+}
+
+.pagesdirectory {
+    display: flex;
+    gap: 75px;
+}
+
+.box1 {
+    height: 600px;
+    width: 520px;
+    background-color: #727272;
+}
+
+.box2 {
+    height: 600px;
+    width: 520px;
+    background-color: #727272;
+}
+
+.box3 {
+    height: 600px;
+    width: 520px;
+    background-color: #727272;
+}
+
+.container4 {
+    height: 90vh;
+    display: flex;
+    margin: 150px 80px 30px 80px;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 200;
+    color: var(--white-color);
+    gap: 25px;
+}
+
+.ct4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infogrp {
+    width: 490px;
+}
+
+.infogrp h1 {
+    font-size: 150px;
+}
+
+.infogrp h4 {
+    font-size: 48px;
+    font-weight: 200;
+}
+
+.ct4 div {
+    width: 400px;
+    height: 400px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #727272;
+    text-align: center;
+}
