@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>seta-para-baixo</title>
+	<defs>
+		<image  width="32" height="45" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAtBAMAAAA9ynQZAAAAAXNSR0IB2cksfwAAACpQTFRFO8faO8faO8faO8faO8faO8faO8faO8faO8faO8faO8faO8faO8faO8faDxW6ywAAAA50Uk5TAP8rgPxcVfuILFhUW1dTc1A1AAAAvklEQVR4nGNkgABBhvcQBuOowFARYPqHJKDwgJHBRGYDXICtqIORmc9kN1wgfVU+4/Qqts4EqABX+oIMRu60BSAlYIH0VcxrGBm2RzHbbAALsGUvsN7CyABRAhIAKXAAugOsBCgAVgByGFgJUACsAOxSkJKDDF/BCsACICVnGMLACiB+uW7F/JfB4EJOM8xzQCVAEqwA6tvtUUACZAJMAKQEogAWHkAlEAUwAe60xRAF8BDbPnULahDyHjaAMAD4dFrntv+VwgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="16" y="10"/>
+</svg>
