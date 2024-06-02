@@ -11,9 +11,13 @@
 
 <body>
     <main>
+        <audio loop id="ocean-audio">
+            <source src="./assets/audios/ocean.mp3" type="audio/mpeg">
+        </audio>
+
         <section class="section" id="hero">
             <div class="section__body">
-                <img class="section__logo" src="./images/logoreciclamais.svg" alt="Logo Recicla Mais">
+                <img class="section__logo" src="./assets/images/logoreciclamais.svg" alt="Logo Recicla Mais">
 
                 <h1 class="section__title">
                     Oceanos
@@ -25,20 +29,20 @@
                 </p>
             </div>
 
-            <a href="#summary" class="section__button">
-                <img src="./images/arrowdown.svg" width="32" alt="Seta para baixo">
+            <a href="#summary" class="section__button section__button-pulse">
+                <img src="./assets/images/arrowdown.svg" width="32" alt="Seta para baixo">
             </a>
 
             <div class="section__footer">
-                <img src="./images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
+                <img src="./assets/images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
                 <div class="section__footer__divider"></div>
-                <img src="./images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
+                <img src="./assets/images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
             </div>
         </section>
 
         <section class="section" id="summary">
             <div class="section__body" style="gap: 30px;">
-                <img class="section__logo" style="align-self: center;" src="./images/logoreciclamais.svg"
+                <img class="section__logo" style="align-self: center;" src="./assets/images/logoreciclamais.svg"
                     alt="Logo Recicla Mais">
 
                 <p class="section__paragraph" style="text-align: center;">
@@ -63,19 +67,19 @@
                 </p>
             </div>
 
-            <a href="#members" class="section__button">
-                <img src="./images/arrowdown.svg" width="32" alt="Seta para baixo">
+            <a href="#members" class="section__button  section__button-pulse">
+                <img src="./assets/images/arrowdown.svg" width="32" alt="Seta para baixo">
             </a>
 
             <div class="section__footer">
-                <img src="./images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
+                <img src="./assets/images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
                 <div class="section__footer__divider"></div>
-                <img src="./images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
+                <img src="./assets/images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
             </div>
         </section>
 
         <!--<section class="container3">
-            <section><img src="./images/Logologoreciclamais.svg" alt="Logo Recicla Mais"></section>
+            <section><img src="./assets/images/Logologoreciclamais.svg" alt="Logo Recicla Mais"></section>
             <section>
                 <p>
                     Imagine um futuro onde oceanos estão livres de resíduos, um lugar onde a tecnologia e a natureza
@@ -90,7 +94,7 @@
                 <div class="box3">Pagina 3</div>
             </section>
             <section class="footerdetail">
-                <img class="img-fluid" src="./images/footerdetail.svg" alt="Logo do Global Solution">
+                <img class="img-fluid" src="./assets/images/footerdetail.svg" alt="Logo do Global Solution">
             </section>
         </section>-->
 
@@ -108,31 +112,37 @@
 
                 <div class="section__members">
                     <div class="section__members__item">
-                        <img src="./images/ftlucas.svg" alt="Logo do Global Solution">
+                        <img src="./assets/images/ftlucas.svg" alt="Logo do Global Solution">
                     </div>
                     <div class="section__members__item">
-                        <img src="./images/ftluan.svg" alt="Logo do Global Solution">
+                        <img src="./assets/images/ftluan.svg" alt="Logo do Global Solution">
                     </div>
                     <div class="section__members__item">
-                        <img src="./images/ftjoao.svg" alt="Logo do Global Solution">
+                        <img src="./assets/images/ftjoao.svg" alt="Logo do Global Solution">
                     </div>
                     <div class="section__members__item">
-                        <img src="./images/ftgabriel.svg" alt="Logo do Global Solution">
+                        <img src="./assets/images/ftgabriel.svg" alt="Logo do Global Solution">
                     </div>
                 </div>
             </div>
 
             <a href="#hero" class="section__button" style="transform: rotate(180deg);">
-                <img src="./images/arrowdown.svg" width="32" alt="Seta para baixo">
+                <img src="./assets/images/arrowdown.svg" width="32" alt="Seta para baixo">
             </a>
 
             <div class="section__footer">
-                <img src="./images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
+                <img src="./assets/images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
                 <div class="section__footer__divider"></div>
-                <img src="./images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
+                <img src="./assets/images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
             </div>
         </section>
     </main>
+
+    <button class="toggle__sound" onclick="toggleSound()">
+        <img src="./assets/images/sound.svg" width="24" alt="Som">
+    </button>
+
+    <script src="script.js"></script>
 </body>
 
 </html>

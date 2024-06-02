@@ -18,7 +18,7 @@
 } 
  
 body {
-    background-image: url("../images/bg-main.svg"); 
+    background-image: url("../assets/images/bg-main.svg"); 
     background-color: var(--bg-black-color);
     background-repeat: no-repeat;  
     background-size: 100%;
@@ -70,6 +70,10 @@ main {
     align-self: center;
 }
 
+.section__button-pulse { 
+    animation: pulseDown 1s infinite;
+}
+
 .section__footer img {
     width: 100%;
 }
@@ -107,6 +111,18 @@ main {
     border-radius: 10px;
 }
 
+.toggle__sound {
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    background-color: var(--main-blue);
+    padding: 14px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 /* SCROLL */
 /* width */
 ::-webkit-scrollbar {
@@ -139,4 +155,4 @@ main {
     100% {
         transform: translateY(0);
     }
-}
+} 
