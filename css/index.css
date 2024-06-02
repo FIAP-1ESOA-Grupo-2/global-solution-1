@@ -16,7 +16,7 @@
     font-family: "Inter", sans-serif;
     color: var(--white-color);
 } 
-
+ 
 body {
     background-image: url("../images/bg-main.svg"); 
     background-color: var(--bg-black-color);
@@ -30,6 +30,7 @@ main {
     overflow-x: hidden; 
     overflow-y: auto;
     backdrop-filter: brightness(50%);
+    scroll-behavior: smooth;
 }
 
 .section { 
@@ -50,13 +51,23 @@ main {
 }
 
 .section__logo {
-    width: clamp(150px, 10vw, 300px); 
+    width: clamp(150px, 10vw, 300px);
 }
 
 .section__footer {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.section__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #252525; 
+    border-radius: 50%;
+    padding: 5px;
+    align-self: center;
 }
 
 .section__footer img {
@@ -74,8 +85,8 @@ main {
     word-break: break-all;
 } 
 
-.section__paragraph { 
-    font-weight: 300; 
+.section__paragraph {
+    font-weight: 300;
     font-size: clamp(24px, 2vw, 64px);
 }
 
@@ -116,4 +127,16 @@ main {
 ::selection {
   color: var(--white-color);
   background: var(--main-blue);
+}
+
+@keyframes pulseDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
