@@ -83,6 +83,19 @@ main {
     color: var(--main-blue);
 }
 
+.section__members {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;  
+    justify-content: space-evenly;
+}
+
+.section__members__item img { 
+    width: 100%;
+    border-radius: 10px;
+}
+
 /* SCROLL */
 /* width */
 ::-webkit-scrollbar {
