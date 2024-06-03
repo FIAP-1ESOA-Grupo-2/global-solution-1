@@ -7,14 +7,18 @@
     <title>Estudos dos problemas</title>
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
     <main>
+        <audio loop id="ocean-audio">
+            <source src="./assets/audios/ocean.mp3" type="audio/mpeg">
+        </audio>
+
         <section class="section pt-10" id="hero">
             <div class="section__body">
-                <img class="section__logo" src="../assets/images/logoreciclamais.svg" alt="Logo Recicla Mais">
+                <img class="section__logo" src="./assets/images/logoreciclamais.svg" alt="Logo Recicla Mais">
 
                 <h1 class="section__title">
                     Um dos maiores problemas no oceano
@@ -28,18 +32,18 @@
                         costeiros.
                     </div>
 
-                    <img src="../assets/images/problems-hero.svg" alt="Estudos" width="240">
+                    <img src="./assets/images/problems-hero.svg" alt="Estudos" width="240">
                 </div>
             </div>
 
             <a href="#studies" class="section__button section__button-pulse">
-                <img src="../assets/images/arrowdown.svg" width="32" alt="Seta para baixo">
+                <img src="./assets/images/arrowdown.svg" width="32" alt="Seta para baixo">
             </a>
 
             <div class="section__footer">
-                <img src="../assets/images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
+                <img src="./assets/images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
                 <div class="section__footer__divider"></div>
-                <img src="../assets/images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
+                <img src="./assets/images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
             </div>
         </section>
 
@@ -57,21 +61,27 @@
                     </div>
 
 
-                    <img src="../assets/images/problems-hero.svg" alt="Estudos">
+                    <img src="./assets/images/problems-hero.svg" alt="Estudos">
                 </div>
             </div>
 
             <a href="#summary" class="section__button section__button-pulse">
-                <img src="../assets/images/arrowdown.svg" width="32" alt="Seta para baixo">
+                <img src="./assets/images/arrowdown.svg" width="32" alt="Seta para baixo">
             </a>
 
             <div class="section__footer">
-                <img src="../assets/images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
+                <img src="./assets/images/singlelogo.svg" style="width: 38px;" alt="Logo do Global Solution">
                 <div class="section__footer__divider"></div>
-                <img src="../assets/images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
+                <img src="./assets/images/gslogo.svg" style="width: 163px;" alt="Logo do Global Solution">
             </div>
         </section>
     </main>
+
+    <button class="toggle__sound" onclick="toggleSound()">
+        <img src="./assets/images/sound.svg" width="24" alt="Som">
+    </button>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
